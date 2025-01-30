@@ -1,6 +1,8 @@
 package main
 
-import "github.com/puppydog4/go-backend/api"
+import (
+	"module/go/api"
+)
 
 func main() {
 	api.App()
